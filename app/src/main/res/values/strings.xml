@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Order Accept Master</string>
+    <string name="accessibility_service_label">Order Accept Master Service</string>
+    <string name="accessibility_service_description">Monitors active window content to detect incoming order accept and confirmation buttons.</string>
+    <string name="status_active">Accessibility Service Active</string>
+    <string name="status_inactive">Accessibility Service Disabled</string>
+    <string name="enable_service_btn">Open Accessibility Settings</string>
+    <string name="check_status_btn">Refresh Status</string>
+    
+    <!-- Dashboard & Settings Strings -->
+    <string name="master_active_title">Automation Running</string>
+    <string name="master_inactive_title">Automation Stopped</string>
+    <string name="master_start_btn">Start Auto-Accept</string>
+    <string name="master_stop_btn">Stop Auto-Accept</string>
+    <string name="platform_toggles_title">Platform Filters</string>
+    <string name="platform_toggles_desc">Select which delivery and ride applications to monitor</string>
+    <string name="platform_rapido">Rapido</string>
+    <string name="platform_uber">Uber Driver</string>
+    <string name="platform_ola">Ola Driver</string>
+    <string name="filter_rules_title">Fare &amp; Distance Thresholds</string>
+    <string name="min_fare_label">Minimum Fare (₹)</string>
+    <string name="min_fare_hint">e.g. 80</string>
+    <string name="max_distance_label">Maximum Pickup Distance (km)</string>
+    <string name="max_distance_hint">e.g. 4.5</string>
+    <string name="save_settings_btn">Save Settings</string>
+    <string name="settings_saved_msg">Settings saved successfully!</string>
+    <string name="invalid_input_msg">Please enter valid positive numbers for fare and distance.</string>
+    
+    <!-- Test Playground Strings -->
+    <string name="test_section_title">Screen Node Detection Test</string>
+    <string name="test_section_desc">Click buttons below to render target text on screen. Check Logcat or the live event feed below to confirm detection.</string>
+    <string name="simulate_accept_btn">Accept Order</string>
+    <string name="simulate_confirm_btn">Confirm Ride</string>
+    <string name="simulate_take_btn">Take Order</string>
+    <string name="simulate_decline_btn">Decline Order</string>
+</resources>

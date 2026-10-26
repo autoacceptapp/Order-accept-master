@@ -1,0 +1,6 @@
+{
+  "name": "Order Accept Master",
+  "description": "Smart auto-accept service and order filter for delivery and ride platforms",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
